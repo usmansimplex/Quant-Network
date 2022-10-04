@@ -7,12 +7,12 @@ const Grids = () => {
       <div className="third_section">
         <div className="container">
           <div className="row">
-            <div className="col-md-6 col-12">
+            <div className="col-md-6 col-12" data-aos="fade-up" data-aos-duration="2000">
               <div className="gif_1">
                 <img src="assets/gif_2.svg" style={{width: '80%'}} alt="" />
               </div>
             </div>
-            <div className="col-md-6 col-12 mt-5 mt-5">
+            <div className="col-md-6 col-12 mt-5 mt-5" data-aos="fade-up" data-aos-duration="2000">
               <div className="section_heading">
                 <h2>Interoperability solved</h2>
                 <p>
@@ -32,8 +32,8 @@ const Grids = () => {
       <div className="third_section">
         <div className="container">
           <div className="row">
-            <div className="col-md-6 col-12 mt-5">
-              <div className="section_heading">
+            <div className="col-md-6 col-12 mt-5" data-aos="fade-up" data-aos-duration="2000">
+              <div className="section_heading" >
                 <h2>Developers unleashed</h2>
                 <p>
                   Develop on Overledger without specialist blockchain knowledge.
@@ -41,7 +41,7 @@ const Grids = () => {
                 <a href="">Fine out more</a>
               </div>
             </div>
-            <div className="col-md-6 col-12 mt-4">
+            <div className="col-md-6 col-12 mt-4" data-aos="fade-up" data-aos-duration="2000">
               <div className="gif_1">
                 <img src="assets/gif_4.svg" alt="" />
               </div>
@@ -54,12 +54,12 @@ const Grids = () => {
       <div className="third_section">
         <div className="container">
           <div className="row">
-            <div className="col-md-6 col-12">
+            <div className="col-md-6 col-12" data-aos="fade-up" data-aos-duration="2000">
               <div className="gif_1">
                 <img src="assets/gif_3.svg" alt="" />
               </div>
             </div>
-            <div className="col-md-6 col-12 mt-5 mt-5">
+            <div className="col-md-6 col-12 mt-5 mt-5" data-aos="fade-up" data-aos-duration="2000">
               <div className="section_heading">
                 <h2>Built for enterprises</h2>
                 <p>
@@ -79,7 +79,7 @@ const Grids = () => {
       <div className="third_section">
         <div className="container">
           <div className="row">
-            <div className="col-md-6 col-12 mt-5">
+            <div className="col-md-6 col-12 mt-5" data-aos="fade-up" data-aos-duration="2000">
               <div className="section_heading">
                 <h2>Designed for <br/> the  future</h2>
                 <p>
@@ -90,7 +90,7 @@ const Grids = () => {
                 <a href="">Fine out more</a>
               </div>
             </div>
-            <div className="col-md-6 col-12">
+            <div className="col-md-6 col-12" data-aos="fade-up" data-aos-duration="2000">
               <div className="gif_1">
                 <img src="assets/gif_5.svg" style={{width: '80%'}} alt="" />
               </div>

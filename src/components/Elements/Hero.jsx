@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-5 col-12">
-              <div className="hero_h1">
+              <div className="hero_h1" data-aos="fade-right" data-aos-duration="1000">
                 <h2>
                   The future of finance. <span>Today.</span>
                 </h2>
