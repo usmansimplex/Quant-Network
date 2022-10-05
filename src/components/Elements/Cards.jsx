@@ -1,5 +1,6 @@
 import React from "react";
 import {BsArrowRight} from 'react-icons/bs'
+import { Link } from "react-router-dom";
 
 const Cards = () => {
   return (
@@ -130,7 +131,7 @@ const Cards = () => {
               </div>
             </div>
           </div>
-          <div className="read_more d-flex justify-content-end"><a href="#">More <span><BsArrowRight/></span></a></div>
+          <div className="read_more d-flex justify-content-end"><Link to="/more">More <span><BsArrowRight/></span></Link></div>
         </div>
       </div>
     </>

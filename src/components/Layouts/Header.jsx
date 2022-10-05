@@ -1,14 +1,15 @@
 import React from "react";
 import { BsSearch } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div className="header">
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar fixed-top bg-white navbar-expand-lg ">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img src="assets/logo-2.png" style={{ width: "30%" }} alt="" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -23,9 +24,9 @@ const Header = () => {
           <div className="collapse navbar-collapse nav_flex" id="navbarText">
             <ul className="navbar-nav   mb-2 mb-lg-0">
               <li className="nav-item position-relative">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/more">
                   Who
-                </a>
+                </Link>
                 
                 <div className="navd position-absolute shadow">
                   <div className="container">
@@ -52,9 +53,9 @@ const Header = () => {
                 </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/more">
                   What
-                </a>
+                </Link>
                 <div className="navd position-absolute shadow">
                   <div className="container">
                     <div className="row">
