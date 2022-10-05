@@ -64,11 +64,11 @@ const Footer = () => {
               <div className="logo">
                 <img src="assets/logo-2.png" style={{ width: "30%" }} alt="" />
               </div>
-              <div style={{ width: "40%" }} className="footer_icons d-flex ">
+              <div style={{ width: "45%" }} className="footer_icons d-flex justify-content-center">
                 <p className="px-2">Privacy Policy</p>
                 <p className="px-3">Terms of use</p>
-                {/* <a  href="#"><AiFillTwitterCircle color="black"/></a>
-                <a href="#"><IoLogoLinkedin color="black"/></a> */}
+                <a  href="#"><AiFillTwitterCircle color="black"/></a>
+                <a href="#"><IoLogoLinkedin color="black"/></a>
               </div>
             </div>
           </div>

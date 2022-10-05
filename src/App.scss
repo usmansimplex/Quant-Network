@@ -32,6 +32,30 @@ body{
         color: #939191;
         font-size: 14px;
     }
+    .nav-link:hover{
+        border-radius: 2px;
+        border-bottom: 4px solid #f15a22;
+    }
+
+    .navd{
+        
+        padding: 30px 30px;
+        width: 500px;
+        display: none;
+        background-color: #ffff;
+        border-radius: 0 30px 0 30px;
+    }
+
+    .nav_hov ul li{
+        list-style: none;
+    }
+
+
+    .nav-item:hover .navd{
+        
+        display: block;
+    }
+
 
 }
 
@@ -273,6 +297,17 @@ body{
 
         }
     }   
+
+
+    .read_more a{
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+        color: #43403e;
+    }
+    .read_more a:hover{
+        color: #f15922;
+    }
     
 }
 
@@ -330,5 +365,16 @@ body{
 @media screen and (max-width: 600px) {
     .card_1{
         width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+     .navd{
+       display: none !important;
+    }
+    .nav-link{
+        border-radius: 2px;
+        border-bottom: none !important;
     }
 }

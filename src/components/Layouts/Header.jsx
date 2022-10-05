@@ -20,20 +20,87 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div
-            className="collapse navbar-collapse nav_flex"
-            id="navbarText"
-          >
-            <ul className="navbar-nav  mb-2 mb-lg-0 text-center">
-              <li className="nav-item">
+          <div className="collapse navbar-collapse nav_flex" id="navbarText">
+            <ul className="navbar-nav   mb-2 mb-lg-0">
+              <li className="nav-item position-relative">
                 <a className="nav-link" href="#">
                   Who
                 </a>
+                
+                <div className="navd position-absolute shadow">
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-md-6 col-6">
+                        <h3>Who we serve</h3>
+                        <p>
+                          We empower banks, asset managers and other financial
+                          institutions; enterprises, typically with
+                          international operations; and the technology partners
+                          and fintech developers who support them.
+                        </p>
+                      </div>
+                      <div className="col-md-6 col-6 nav_hov">
+                        <ul>
+                          <li>Financial institution</li>
+                          <li>Enterprises</li>
+                          <li>Partners</li>
+                          <li>Developers</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
                   What
                 </a>
+                <div className="navd position-absolute shadow">
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-md-6 col-6 ">
+                        <h3>Who we serve</h3>
+                        <p>
+                          We empower banks, asset managers and other financial
+                          institutions; enterprises, typically with
+                          international operations; and the technology partners
+                          and fintech developers who support them.
+                        </p>
+                      </div>
+                      <div className="col-md-6 col-6 nav_hov">
+                        <ul>
+                          <li>Financial institution</li>
+                          <li>Enterprises</li>
+                          <li>Partners</li>
+                          <li>Developers</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="navd position-absolute shadow">
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-md-6 col-12">
+                        <h3>Who we serve</h3>
+                        <p>
+                          We empower banks, asset managers and other financial
+                          institutions; enterprises, typically with
+                          international operations; and the technology partners
+                          and fintech developers who support them.
+                        </p>
+                      </div>
+                      <div className="col-md-6 col-12 nav_hov">
+                        <ul>
+                          <li>Financial institution</li>
+                          <li>Enterprises</li>
+                          <li>Partners</li>
+                          <li>Developers</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">

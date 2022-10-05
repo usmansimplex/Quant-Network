@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="banner_section">
         <div className="container ban_flex">
           <div className="banner_text">
-            <h2>An empowered, interconnected world</h2>
+            <h2>An empowered,<br/> interconnected world</h2>
             <p>
               We serve banks, asset managers and other financial institutions;
               enterprises; and the technology partners and fintech developers
