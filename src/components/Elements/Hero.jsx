@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="col-md-5 col-12">
               <div className="hero_h1" data-aos="fade-right" data-aos-duration="1000">
                 <h2>
-                  The future of finance. <span>Today.</span>
+                  The future of finance to chek docker. <span>Today.</span>
                 </h2>
               </div>
               <div>
