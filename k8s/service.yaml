@@ -1,0 +1,15 @@
+# nginx-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: quant-service
+spec:
+  type: NodePort
+  selector:
+    app: quant-network
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+      nodePort: 30007  # You can specify a node port to access from localhost
+
