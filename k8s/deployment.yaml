@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: deployment
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       app: quant-network 
