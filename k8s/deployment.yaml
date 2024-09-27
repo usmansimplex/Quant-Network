@@ -1,13 +1,14 @@
+
 # nginx-deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: deployment
+  name: quant-network-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: quant-network 
+      app: quant-network
   template:
     metadata:
       labels:
@@ -18,4 +19,11 @@ spec:
         image: syedusman/quant-network
         ports:
         - containerPort: 80
+        resources:
+          requests:
+            cpu: "100m"       # Set CPU request
+            memory: "200Mi"   # Set memory request
+          limits:
+            cpu: "200m"       # Optional: Set CPU limit
+            memory: "300Mi"   # Optional: Set memory limit
 
